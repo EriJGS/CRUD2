@@ -58,7 +58,7 @@ if ($stmt->rowCount() > 0) {
 ?>
 <br>
 <form action="insertar.php" method="post">
-
+ 
 <fieldset style="width:300px">
 <legend>Inserte la informacion del nuevo registro</legend>
   Id: <input type="number" name="identificador" id="" value="1975" class="w3-input" required><br>

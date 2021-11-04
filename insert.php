@@ -12,5 +12,5 @@ if (empty($_SESSION["nombre"]))
 <?php
 
 print_r($_POST);
-
+ 
 >?

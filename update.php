@@ -4,7 +4,7 @@ validar();
 ?>
 <?php
 $pdo = new PDO('mysql:host=localhost;dbname=' . $dbname, $username, $password);
-
+ 
 if (isset($_POST['colum1'])) {
   $colum1 = $_POST['colum1'];
   $query = "SELECT column1, column2, column3, column4, column5 FROM table1 WHERE column1 =  :colum1  ;";

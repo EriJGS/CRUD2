@@ -3,7 +3,7 @@ include("./inc/settings.php");
 validar();
 
 $pdo = new PDO('mysql:host=localhost;dbname=' . $dbname, $username, $password);
-
+ 
 if (isset($_POST['identificador']) || isset($_POST['nombre'])||isset($_POST['fecha'])||isset($_POST['numero'])||isset($_POST['numDouble'])) {
   $identificador = $_POST['identificador'];
   $nombre = $_POST['nombre'];
